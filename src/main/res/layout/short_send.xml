@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Space
+        android:layout_width="118dp"
+        android:layout_height="95dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton9"
+        android:layout_alignTop="@+id/space"
+        android:layout_alignLeft="@+id/space"
+        android:layout_alignStart="@+id/space" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton7"
+        android:layout_alignTop="@+id/space"
+        android:layout_alignRight="@+id/space"
+        android:layout_alignEnd="@+id/space" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton5"
+        android:layout_alignBottom="@+id/space"
+        android:layout_alignRight="@+id/space"
+        android:layout_alignEnd="@+id/space" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton8"
+        android:layout_alignBottom="@+id/imageButton5"
+        android:layout_alignLeft="@+id/space"
+        android:layout_alignStart="@+id/space" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton6"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_toLeftOf="@+id/imageButton5"
+        android:layout_toStartOf="@+id/imageButton5"
+        android:layout_marginRight="14dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton10"
+        android:layout_alignTop="@+id/space"
+        android:layout_toLeftOf="@+id/imageButton7"
+        android:layout_toStartOf="@+id/imageButton7"
+        android:layout_marginRight="14dp" />
+
+</RelativeLayout>
